@@ -1,0 +1,7 @@
+.searchField input {
+  font-size: 1.5rem;
+}
+
+.searchField input::placeholder {
+  font-size: 1.5rem;
+}

@@ -1,0 +1,45 @@
+.searchPage {
+  width: 100%;
+}
+
+.searchPage header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+
+.searchPage header h1 {
+  margin-bottom: 0.1rem;
+  font-size: 2rem;
+}
+
+.searchPage main {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: stretch;
+}
+
+.searchPage main ul.topics {
+  list-style-type: none;
+}
+
+.numberOfResults {
+  margin: 0.2rem 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.6rem;
+}
+
+.logo {
+  width: 10.5%;
+  border-radius: 50%;
+  margin-top: 0;
+}

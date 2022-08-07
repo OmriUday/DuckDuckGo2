@@ -1,0 +1,53 @@
+.paginationWrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.1rem;
+}
+
+ul.pagination {
+  list-style: none;
+  display: flex;
+}
+
+ul.pagination li a {
+  display: inline-flex;
+  text-decoration: none;
+  color: black;
+  box-sizing: border-box;
+  align-content: center;
+  font-weight: 700;
+  justify-content: center;
+  height: 1.5rem;
+  margin: 0 4px;
+  width: 1.5rem;
+  border: 2px solid transparent;
+}
+
+ul.pagination li a.next,
+ul.pagination li a.prev {
+  width: 3rem;
+}
+
+ul.pagination li a:hover {
+  text-decoration: underline;
+}
+
+ul.pagination li a.selected {
+  color: #3665f3;
+  pointer-events: none;
+  border-color: #3665f3;
+  border-radius: 0.5rem;
+}
+
+ul.pagination li a.selected {
+  color: white;
+  pointer-events: none;
+  border-color: white;
+  border-radius: 0.5rem;
+}
+
+ul.pagination li a.unclickable {
+  pointer-events: none;
+  color: gray;
+  opacity: 0.5;
+}

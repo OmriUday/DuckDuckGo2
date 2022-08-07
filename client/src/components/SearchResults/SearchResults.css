@@ -1,0 +1,31 @@
+.searchResults {
+  width: 100%;
+}
+
+.topicsContainer {
+  margin-left: 40%;
+}
+
+.topics {
+  font-size: 1.1rem;
+  display: flex;
+  margin-top: 0.55rem;
+}
+
+.topics li {
+  margin-bottom: 0.3rem;
+}
+
+.topics a {
+  text-decoration: none;
+  color: blue;
+}
+
+.topics a:hover {
+  text-decoration: underline;
+}
+
+.searchResults p {
+  margin-top: 0.3rem;
+  font-size: 1.2rem;
+}

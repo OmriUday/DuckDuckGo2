@@ -1,0 +1,8 @@
+.findFieldWrap {
+  margin: 0.5rem 0 0.3rem 2rem;
+  display: inline-flex;
+}
+
+.findFieldWrap .appearancesCount {
+  margin-left: 0.6rem;
+}
